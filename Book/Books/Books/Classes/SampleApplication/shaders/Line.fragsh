@@ -1,0 +1,15 @@
+//
+//  Created by  on 15/4/21.
+//  Copyright (c) 2015年 BR. All rights reserved.
+//
+
+
+precision mediump float;
+
+uniform float opacity;
+uniform vec3 color;
+
+void main()
+{
+    gl_FragColor = vec4(color.r, color.g, color.b, opacity);
+}
